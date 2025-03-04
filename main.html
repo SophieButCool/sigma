@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="favicon.png">
+<title>Sophie's Corner</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  margin: 0;
+}
+
+/* Style header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #220055;
+  color: #faf;
+}
+
+.postheader {
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  color: #faf;
+}
+
+/* Style page */
+.page {
+  /*
+  padding: 60px;
+  background: #220055;
+  */
+  color: #faf;
+  text-align: center;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  color: #faf;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Create 3 columns that sit next to each other */
+/* left column */
+.left {
+  flex: 25%; /* Set the width of the sidebar */
+  background-color: #555; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 50%; /* Set the width of the main content */
+  background-color: #444; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+/* right column */
+.right {
+  flex: 25%; /* Set the width of the main content */
+  background-color: #555; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sophie</h1>
+  <p>I don't know how to make a webpage sorry</p>
+</div>
+
+<div class="postheader">
+  <p>I am trying my best :3</p>
+</div>
+
+
+<div class="row">
+  <div class="left"> <h3>This is my webpage where I put stuff :3</h3><br><br>  
+  <img src="https://raw.githubusercontent.com/SophieButCool/sigma/main/Teto.png" alt="an image of Kasane Teto" height="200" width="200"> <br><br> 
+
+
+</div>
+
+<div class="main">So this is my page on chocogames.org :3 <br><br> 
+<script>
+fetch('https://raw.githubusercontent.com/SophieButCool/sigma/refs/heads/main/Important%20Info')
+.then(response => {
+    if (!response.ok) {
+        throw new Error("HTTP error " + response.status);
+    }
+    return response.text();
+})
+.then(text => {
+    document.getElementById("demo").innerHTML = text;
+})
+.catch(error => {
+    // Handle/report error
+});
+</script>
+
+<h3 id="demo"></h3>
+ <script src="text.js"></script>
+</h3><br><br> 
+
+</div>
+
+
+
+<div class="right">
+<h3> Browser Games </h3>
+I want to have some old scratch games on here but I'm too stupid to figure that out. <br><br> <br><br> 
+<h3></h3></a> <br><br>
+
+
+</div>
+
+</div>
+
+<div class="page">
+  <h3>Hatsune Miku</h3>
+  <img src="https://raw.githubusercontent.com/SophieButCool/sigma/main/miku.png" alt="an image of Hatsune Miku" width="200">
+  
+</div>
+
+
+
+</body>
+</html>
